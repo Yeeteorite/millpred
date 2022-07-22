@@ -3,9 +3,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
 
-loaded_model=pickle.load(open('C:/Users/Nitish/Documents/try/trained_model.sav', 'rb'))
+loaded_model=pickle.load(open('C:/Users/Nitish/Documents/try/trained_model', 'rb'))
 
 st.header("Predicting Clinker Mineralogy")
 
