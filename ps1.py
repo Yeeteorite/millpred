@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-loaded_model=pickle.load(open('C:/Users/Nitish/Document/try/trained_model.sav', 'wb'))
+loaded_model=pickle.load(open('C:/Users/Nitish/Document/try/trained_model', 'wb'))
 
 st.header("Predicting Clinker Mineralogy")
 
