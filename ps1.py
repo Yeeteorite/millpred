@@ -1,10 +1,10 @@
 import numpy as np
 import streamlit as st
-import pickle
+import joblib
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 
-loaded_model=pickle.load(open('C:/Users/Nitish/Documents/try/trained_model.sav', 'rb'))
+loaded_model=joblib.load(open('trained_model.joblib', 'rb'))
 
 st.header("Predicting Clinker Mineralogy")
 
